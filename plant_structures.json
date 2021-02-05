@@ -1,0 +1,19 @@
+{
+    "plants":[
+        {
+        "name":"a",
+        "axiom":"F",
+        "rules":"{F:F[+F]F[-F]F}"
+        },
+        {
+        "name":"b",
+        "axiom":"F",
+        "rules":"{F:F[+F]F[-F][F]}"
+        },
+        {
+        "name":"f",
+        "axiom":"X",
+        "rules":"{X:F-[[X]+X]+F[+FX]-X,F:FF}"
+        }
+    ]
+}
