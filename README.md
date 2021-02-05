@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lindenmayer System
 For my first steps into python I selected a Lindenmayer System (L-System). I had this as an assignment in university (in Java) and thought it was a great way to explore a new language.
 L-Systems were introduced in 1968 by the biologist (and botanist) **Aristid Lindenmayer**. 
@@ -21,3 +22,8 @@ So far there are no error handling or test features included. The functionality 
 My very first python program on GitHub. I selected a Lindenmayer System (L-System) to generate a plant. I had this as an assignment in university (in Java) and thought it was great to explore a new language. 
 
 This first version has just one plant rule hard coded into the script. The visualization is conducted via turtle. You can play around with it by changing the number of generations and of course line size and angle.
+=======
+# L-System Plant
+My very first python program on GitHub. 
+I selected an Lindenmayer System (L-System) to generate a plant. I had this as an assignment in university (in Java) and thought it was great to explore a new language. You can play around with it by changing the number of generations and of course line size and angle.
+>>>>>>> 6611d587cfee06738cc6c6c9e5aae7749ae9f894
