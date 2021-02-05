@@ -4,9 +4,10 @@ import json
 import random
 
 # define the plant parameter
+# the plants work best with an angle of 22.5, the snowflake needs 60
 generations = 4
 line_size = 5
-drawing_angle = 22
+drawing_angle = 22.5 
 
 # import the plant parameters from the external json file
 filename = "plant_structures.json"

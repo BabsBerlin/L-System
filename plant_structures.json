@@ -14,6 +14,11 @@
         "name":"f",
         "axiom":"X",
         "rules":"{X:F-[[X]+X]+F[+FX]-X,F:FF}"
+        },
+        {
+        "name":"snowflake",
+        "axiom":"F++F++F",
+        "rules":"{F:F-F++F-F}"
         }
     ]
 }
