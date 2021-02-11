@@ -18,5 +18,11 @@ There are no real error handling or test features included. The functionality is
 ### the first step <span style="font-size:0.5em">01/27/2021</span>
 * *LSystem_plant.py*
 
+<<<<<<< HEAD
 My very first python program on GitHub. 
 This first version has just one plant rule hard coded into the script. The visualization is conducted via turtle. You can play around with it by changing the number of generations and of course line_size and drawing_angle.
+=======
+My very first python program on GitHub. I selected a Lindenmayer System (L-System) to generate a plant. I had this as an assignment in university (in Java) and thought it was great to explore a new language. 
+
+This first version has just one plant rule hard coded into the script. The visualization is conducted via turtle. You can play around with it by changing the number of generations and of course line size and angle.
+>>>>>>> b29dee819ada12d29b71903429bbbd3242692743
