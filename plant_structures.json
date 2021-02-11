@@ -3,22 +3,26 @@
         {
         "name":"a",
         "axiom":"F",
-        "rules":"{F:F[+F]F[-F]F}"
+        "rules":"{F:F[+F]F[-F]F}",
+        "angle":"22.5"
         },
         {
         "name":"b",
         "axiom":"F",
-        "rules":"{F:F[+F]F[-F][F]}"
+        "rules":"{F:F[+F]F[-F][F]}",
+        "angle":"22.5"
         },
         {
         "name":"f",
         "axiom":"X",
-        "rules":"{X:F-[[X]+X]+F[+FX]-X,F:FF}"
+        "rules":"{X:F-[[X]+X]+F[+FX]-X,F:FF}",
+        "angle":"22.5"
         },
         {
         "name":"snowflake",
         "axiom":"F++F++F",
-        "rules":"{F:F-F++F-F}"
+        "rules":"{F:F-F++F-F}",
+        "angle":"60"
         }
     ]
 }

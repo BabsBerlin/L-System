@@ -15,7 +15,7 @@ def initializeTurtleDrawer():
     t.penup()
     t.goto(0,-250)
     # t.speed(10)
-    t._tracer(0)
+    t._tracer(0)     
     return t
 
 # method to draw the plant string with turtle

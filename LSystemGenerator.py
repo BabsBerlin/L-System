@@ -1,13 +1,11 @@
-from TurtleDrawer import *
+from TurtleDrawer import initializeTurtleDrawer, draw
 import os
 import json
 import random
 
 # define the plant parameter
-# the plants work best with an angle of 22.5, the snowflake needs 60
 generations = 4
-line_size = 5
-drawing_angle = 22.5 
+line_size = 5 
 
 # import the plant parameters from the external json file
 filename = "plant_structures.json"
@@ -36,6 +34,7 @@ for p in data["plants"]:
         plant_name = p["name"]
         plant_axiom = p["axiom"]
         plant_rules = p["rules"]
+        drawing_angle = float(p["angle"])
 # prepare the ruleset for generating the plant
 plant_rules = plant_rules.replace("{","")
 plant_rules = plant_rules.replace("}","")
